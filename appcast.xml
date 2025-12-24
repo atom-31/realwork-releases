@@ -8,10 +8,10 @@
         
         <!-- Latest Release -->
       <item>
-   <title>Version 3.0.7</title>
-    <sparkle:version>3.0.7</sparkle:version>
-    <sparkle:shortVersionString>3.0.7</sparkle:shortVersionString>
-    <pubDate>Wed, 24 Dec 2025 14:51:39 +0530</pubDate>
+  <title>Version 3.0.8</title>
+    <sparkle:version>3.0.8</sparkle:version>
+    <sparkle:shortVersionString>3.0.8</sparkle:shortVersionString>
+    <pubDate>Wed, 24 Dec 2025 19:43:09 +0530</pubDate>
             <description>
                 <![CDATA[
                     <h2>What's New in Version 3.0.2</h2>
@@ -24,9 +24,9 @@
                     </ul>
                 ]]>
             </description>
-    <enclosure 
-        url="https://github.com/atom-31/realwork-releases/releases/download/v3.0.7/Realwork-3.0.7.zip"
-        sparkle:edSignature="FOhDv+UZUyO/4lz5iIBaUkZFLDu31tcxuNs7n3EoiTvqMtn51ezF0GVB6U1kRSvwvKONrGUaIRpVu1jN176+Bg==" length="49627670"
+   <enclosure 
+        url="https://github.com/atom-31/realwork-releases/releases/download/v3.0.8/Realwork-3.0.8.zip"
+        sparkle:edSignature="Y+ml+uNeaAWZgbqebMKzt7V5g2v6gEWGegsxdG+f/GaQx9vRxRsv0iFC4S944oOQzAjzx7MyuJQO0n08RcBiDA==" length="49672830"
         type="application/octet-stream"/>
     <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
 </item>
