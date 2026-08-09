@@ -1,18 +1,145 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Realwork Updates</title>
         <link>https://realwork.app</link>
         <description>Updates for Realwork - Proof of Work for Humans</description>
         <language>en</language>
-        
         <!-- Latest Release -->
-      <item>
-    <title>Version 3.0.13</title>
-    <sparkle:version>3.0.13</sparkle:version>
-    <sparkle:shortVersionString>3.0.13</sparkle:shortVersionString>
-    <pubDate>Sun, 18 Jan 2026 20:35:17 +0530</pubDate>
-    <description><![CDATA[
+        <item>
+            <title>3.0.14</title>
+            <pubDate>Sun, 09 Aug 2026 18:51:59 +0000</pubDate>
+            <sparkle:version>3.0.14</sparkle:version>
+            <sparkle:shortVersionString>3.0.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Realwork 3.0.14
+
+Source: atom-31/realwork-mono@f8e851bc69d241735815f3a93257bfae4cb620d5
+
+- Fix annotated macOS release tag validation (f8e851b)
+- Fix hosted CI compatibility (fc8881e)
+- Rebuild proof integrity and automate macOS releases (ae20516)
+- SEO revamp (4132580)
+- waitlist redirect to download (731b084)
+- onboarding stopped for now (9bcb032)
+- onboarding added (0f8c07b)
+- logo update (300eb8f)
+- small fixes and seo (c2f5851)
+- terms and privacy (3de904b)
+- landing dashboard (7a599d6)
+- flex rap remove lol (c9d0fbf)
+- proof page updated dark mode (0ee1844)
+- username page dark mode (698ea8d)
+- username page updated to light mode (573df99)
+- all misc pages updated (4950d4d)
+- logo fr (53841f9)
+- logos updated! (526f43f)
+- image and video optimisation (5c24e17)
+- waitlist logic (88f88bc)
+- error removed (a9dd835)
+- waitlist page and migration done (2ca7782)
+- footer logo (5003950)
+- docs logo updated (13627c9)
+- docs added (8014485)
+- faq improved (26e838a)
+- spacing (07f0482)
+- small tweaks (1579537)
+- testimonials added (666c8f1)
+- how it works added (dd30734)
+- doubt meter sizing fix (3b004d2)
+- doubt meter section (96b2b54)
+- feature section one change missed (620a3b0)
+- features section pakka (6bc59c9)
+- new landing p1 (8e339f2)
+- new landing (dec90a9)
+- image optimisation (1aeb38b)
+- onboarding and dashboard changes (a28e3fc)
+- onboarding submission fix (289e8a9)
+- refresh logic fix (bbb51fa)
+- username page reload fixed (ce0a110)
+- seo for manifest (1b84d9c)
+- manifest final (193f02e)
+- proof link in manifesto (8899ffa)
+- metadata update fixed (cbf3bc9)
+- proof id lowercase fix (7a03984)
+- refresh token fix (aecf54b)
+- delete logic added (1dd54f8)
+- manifesto pt 2 (a1ddf43)
+- manifesto added (396c14e)
+- desktop auth, pricing, support apps ui update (583f3db)
+- proxy updated (89d3d3a)
+- refresh fix in app and web (512d3f5)
+- og-image updated (4e4afa1)
+- crash fix and bg update (a2a72d9)
+- refresh logic updated (8a61b1c)
+- get started always redirect to /download (d8e96a8)
+- pricing updated properly (5abc3af)
+- Seo optimisation and pricing page update (56a39a3)
+- refresh token fix and favicon added to metadata (c6a9124)
+- open graphs vercel/og (a8a0f0e)
+- dynamic metadata in profile page and sitemap (2112de4)
+- sticky cards fix (5f06bee)
+- how-to videos added (d874c8c)
+- mac project creation updates (662ea0e)
+- url redirect fix (6218795)
+- more logs (420de31)
+- console logs to check (cb87151)
+- fixed entitlements (7e506c1)
+- download api (0948e89)
+- security error fixes (b506228)
+- public profile view and webhook fixed (8ad2069)
+- dashboard view in main page (ee200ed)
+- avatar change and drop down (2562163)
+- small login get started fixes (9150c9b)
+- get started revamp (576d408)
+- login page sexy (3c0a5ca)
+- follow logic added (7fe7c62)
+- pro in profiles table updated and public heatmaps (3d58caf)
+- pro badge shown to all visitors (9e1db9f)
+- heatmap mobile fix (ce3ccbb)
+- login page and medium avatar (d613e45)
+- pricing limits corrected and checkout success (3a42558)
+- fixed video play in mobile (1ca662d)
+- mobile proof view (2ed80d4)
+- auto play and svg icons (d20e0cc)
+- pinned proofs (2e0c282)
+- renammed to proofs (f560c65)
+- privacy update and icons added (5229a95)
+- git like logic added (0fea759)
+- time fixed and update messes up (819b34e)
+- mid video player (374c3f3)
+- video preview removed (96f3ecd)
+- thumbnail works (30fb78a)
+- custom avatar and github like page (b70a349)
+- fallback removed (2d900f1)
+- new loopback server auth (569e651)
+- bad auth but some debug fixes (3acd759)
+- sparkle debug deactivate and project sync added (5165adc)
+- github type mac update (d16ec00)
+- github like project route (068e37d)
+- user flow fixed and small ui changes (a2ce5fe)
+- dashboard logic updated and username logic created (183f7b3)
+- dashboard mid (6b36b5b)
+- auth context and favicon (113ad02)
+- BG CHANGE AND PRICING CARD (8e8fc3a)
+- small changes to get started (db4c559)
+- get started (4f7aff1)
+- onboarding decent (4a169f0)
+- prod fix and posthog (91138a2)
+- update flow fixed fully (32867fe)
+- small changes (bd9c8f0)
+- check for updates button (d81b92a)
+- prod build works ig (766a35a)
+- moved release to public repo (0fef8c4)
+]]></description>
+            <enclosure url="https://github.com/atom-31/realwork-releases/releases/download/v3.0.14/Realwork-3.0.14.zip" length="71869463" type="application/octet-stream" sparkle:edSignature="rxhECWWdEUeaN+KbtXVGlsxaFtA1qJw87BVR+tzZvCK9MsDnudo4efdy+dVtGd6wL+nl5Drap2PNtsYOQ8mwCA=="/>
+        </item>
+        <item>
+            <title>Version 3.0.13</title>
+            <sparkle:version>3.0.13</sparkle:version>
+            <sparkle:shortVersionString>3.0.13</sparkle:shortVersionString>
+            <pubDate>Sun, 18 Jan 2026 20:35:17 +0530</pubDate>
+            <description><![CDATA[
         <h2>✨ New Onboarding Experience</h2>
         <ul>
             <li><strong>Interactive Video Walkthrough</strong> – New users are now guided through a 4-step onboarding flow with embedded video demos</li>
@@ -33,12 +160,8 @@
             <li>Improved resource bundling for embedded assets</li>
         </ul>
     ]]></description>
-    <enclosure 
-        url="https://github.com/atom-31/realwork-releases/releases/download/v3.0.13/Realwork-3.0.13.zip"
-        sparkle:edSignature="GqvWKT2/EhYg7A0YnhTO5l3jhwufC5TfdtYncdWrquxBYRuIgL8BqDO72NMi6Zz8c0PkPhUx2AVfF9Pqp42xCA==" length="71706646"
-        type="application/octet-stream"/>
-    <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-</item>
-        
+            <enclosure url="https://github.com/atom-31/realwork-releases/releases/download/v3.0.13/Realwork-3.0.13.zip" sparkle:edSignature="GqvWKT2/EhYg7A0YnhTO5l3jhwufC5TfdtYncdWrquxBYRuIgL8BqDO72NMi6Zz8c0PkPhUx2AVfF9Pqp42xCA==" length="71706646" type="application/octet-stream"/>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        </item>
     </channel>
 </rss>
