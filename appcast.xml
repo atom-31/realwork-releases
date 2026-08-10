@@ -7,6 +7,20 @@
         <language>en</language>
         <!-- Latest Release -->
         <item>
+            <title>3.0.15</title>
+            <pubDate>Mon, 10 Aug 2026 16:20:24 +0000</pubDate>
+            <sparkle:version>3.0.15</sparkle:version>
+            <sparkle:shortVersionString>3.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Realwork 3.0.15
+
+Source: atom-31/realwork-mono@66365767efae82a07ca64203f5a945d7be82adc3
+
+- Ship desktop experience and auth revamp (6636576)
+]]></description>
+            <enclosure url="https://github.com/atom-31/realwork-releases/releases/download/v3.0.15/Realwork-3.0.15.zip" length="72278336" type="application/octet-stream" sparkle:edSignature="Ci16gtvMihUxs82RxAAF4yJOKSH1v23FXhHo3Lc519bRhXsINBjHIjXzUh7kB6AUO28ODPbD2isVwAxmHkrhBQ=="/>
+        </item>
+        <item>
             <title>3.0.14</title>
             <pubDate>Sun, 09 Aug 2026 18:51:59 +0000</pubDate>
             <sparkle:version>3.0.14</sparkle:version>
